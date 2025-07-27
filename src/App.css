@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.title{
+    color:#2563EB;
+    font-size: clamp(7rem, 2vw, 2rem);
+    line-height: 1.6;
+}
+.sub-title{
+    color:#2563EB;
+}
+.wrapper{
+    
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+.App{
+    font-size: 2rem;
+    margin:0;
+    background-color: #F8FAFC;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bgImage, .fgImage{
+    position: fixed;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+.bgImage{
+    transform: translateZ(-10px) scale(2);
+}
+.fgImage{
+    transform: translateZ(-5px) scale(1.5);
+}
+.text{
+    color: white;
+    text-shadow: 0 0 5px #E2E8F0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer{
+    display:flex;
+    /* flex-direction: row; */
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:2rem;
+    width:100%;
+    height:max-content;
+    background-color: #4338CA;
+    color:#f0f5d8;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+.footer-section {
+    flex: 1 1 300px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+/* Responsive font sizes using clamp */
+.footer-section p {
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 1.6;
+    margin: 0.25rem 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-section a {
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 1.6;
+    margin: 0.25rem 0;
+}
+.footer-section p:first-child {
+    font-weight: 600;
+    font-size: clamp(16px, 2.5vw, 20px);
+}
+.links a{
+    color:white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    margin-top:5px;
+}
+.links a:hover{
+    color: rgb(213, 210, 210);
+}
+.privacy{
+    align-self: flex-end;
 }
