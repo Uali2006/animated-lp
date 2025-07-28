@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/animated-lp/static/css/main.7253143a.css",
-    "main.js": "/animated-lp/static/js/main.ce7dc4e4.js",
+    "main.css": "/animated-lp/static/css/main.4f8063c5.css",
+    "main.js": "/animated-lp/static/js/main.d14dba26.js",
     "static/js/453.027aae78.chunk.js": "/animated-lp/static/js/453.027aae78.chunk.js",
     "static/media/layered-waves-haikei.svg": "/animated-lp/static/media/layered-waves-haikei.6af8606c1d171cf46f89df9ae2140c52.svg",
     "static/media/layered-waves-haikei-mobile.svg": "/animated-lp/static/media/layered-waves-haikei-mobile.06b801f02e8aeba3cc31838721515cb9.svg",
     "index.html": "/animated-lp/index.html",
     "static/media/circle-scatter-haikei-mobile.svg": "/animated-lp/static/media/circle-scatter-haikei-mobile.ac09d2c054200bac63f5a9c05e2e1e7d.svg",
     "static/media/circle-scatter-haikei.svg": "/animated-lp/static/media/circle-scatter-haikei.f449c03d0a1ab4c402aa731bc98ea5cd.svg",
-    "main.7253143a.css.map": "/animated-lp/static/css/main.7253143a.css.map",
-    "main.ce7dc4e4.js.map": "/animated-lp/static/js/main.ce7dc4e4.js.map",
+    "main.4f8063c5.css.map": "/animated-lp/static/css/main.4f8063c5.css.map",
+    "main.d14dba26.js.map": "/animated-lp/static/js/main.d14dba26.js.map",
     "453.027aae78.chunk.js.map": "/animated-lp/static/js/453.027aae78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7253143a.css",
-    "static/js/main.ce7dc4e4.js"
+    "static/css/main.4f8063c5.css",
+    "static/js/main.d14dba26.js"
   ]
 }
