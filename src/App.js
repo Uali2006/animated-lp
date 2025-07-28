@@ -105,7 +105,7 @@ function App() {
     window.addEventListener('resize', handleResize);
     console.log(size[0]);
     return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  });
 
   // const[angles, setAngle] = useState(() => colors.map((_, index) => index * -10));
   // const degrees=colors.map((_, index) => index * -10 );
@@ -119,7 +119,7 @@ function App() {
           <img src={(size[0] > 1024) ? fgImage : fgImageMobile} alt="fgImage" className="fgImage"/>
           <div className='text'>
             <h1 className="title">Welcome</h1>
-            <h3 className = "sub-title smaller">This is animated Landing Page</h3>
+            <h3 className = "sub-title">This is animated Landing Page</h3>
           </div>
         </header>
 
